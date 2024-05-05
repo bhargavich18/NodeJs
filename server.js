@@ -53,9 +53,10 @@ fastify.get("/users", async (request, reply) => {
   return getData(`${ORIGINAL_SERVER}/users`);
 });
 
+const PORT=process.env.PORT || 80
 // Run the server!
 try {
-  await fastify.listen({ port: 3000 });
+  await fastify.listen({ port: PORT });
 } catch (err) {
   fastify.log.error(err);
   process.exit(1);
