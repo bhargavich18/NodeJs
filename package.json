@@ -1,0 +1,28 @@
+{
+  "name": "community-nodejs-fastify",
+  "version": "1.0.0",
+  "description": "A simple nodejs fastify API application for CRUD routes.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "community",
+    "APIs",
+    "docker",
+    "kubernetes"
+  ],
+  "author": "NA",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "node-fetch": "^3.3.2"
+  }
+}
